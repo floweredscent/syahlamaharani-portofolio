@@ -1,4 +1,4 @@
-# Brainstorm — Syahla Maharani Salsabila
+# Brainstorm — Syahla's Portfolio Website
 
 ## Prompt 1
 Role: UX/UI consultant for a portfolio developer.
