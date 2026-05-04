@@ -38,6 +38,7 @@ Yang WAJIB:
 - Responsive design (mobile-first)
 - Accessibility basics
 - Clean CSS: Menggunakan Flexbox & Grid, Konsisten spacing (margin/padding system)
+- Consistent design system: Menggunakan color palette Option C (teal + purple), Typography: Plus Jakarta Sans + Inter + JetBrains Mono, Spacing dan hierarchy konsisten
 - CTA jelas (misal: “Contact Me”, “View Projects”)
 
 ---
