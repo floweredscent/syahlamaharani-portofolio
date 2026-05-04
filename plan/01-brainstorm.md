@@ -40,7 +40,7 @@ Here's a quick rationale for the key decisions:
 
 Want me to mock up the hero section layout, or generate a sample color-applied component like a project card?
 
-## Prompt 2 (dan seterusnya)
+## Prompt 2 
 Is a single-page layout better, or a multi-page layout?
 
 ## AI Response 2
