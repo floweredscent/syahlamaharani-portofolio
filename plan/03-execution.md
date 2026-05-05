@@ -224,3 +224,114 @@ Untuk melihat hasilnya, buka index.html di browser dan klik link navigasi sepert
 - [✅] Format sesuai?
 - [✅] Bisa dipahami?
 - Changes: Scroll navigasi yang sebelumnya kaku (seperti loncat-loncat) kini menjadi lebih mulus.
+
+
+---
+
+## Step 5: Merubah Warna Background
+
+### Prompt
+Buat agar seluruh background website menjadi gradasi warna teal-ungu-putih, dengan syarat tidak ada tulisan atau tombol yang terkesan menyatu dengan background. Berikan komentar bagian mana saja yang berubah.
+
+### RTCC-O Check
+- R: ❌
+- T: ✅
+- C: ✅
+- C: ✅
+- O: ✅
+
+### AI Response
+![img](..\assets\execution-prompt5-1.png)
+
+Replacing 6 lines with 7 lines in [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/styles.css)
+
+
+```
+
+```
+
+
+Replacing 8 lines with 9 lines in [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/styles.css)
+
+
+```
+
+```
+
+
+Replacing 11 lines with 11 lines in [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/styles.css)
+
+
+```
+
+```
+
+
+Replacing 6 lines with 6 lines in [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/styles.css)
+
+
+```
+
+```
+
+
+Replacing 7 lines with 7 lines in [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/styles.css)
+
+
+```
+
+```
+
+
+Replacing 9 lines with 9 lines in [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/styles.css)
+
+
+```
+
+```
+Saya telah mengimplementasikan perubahan agar seluruh background website menjadi gradasi warna teal-ungu-putih secara vertikal (dari atas ke bawah), dengan background-attachment: fixed untuk efek penuh. Untuk mencegah tulisan atau tombol menyatu dengan background, semua elemen utama (header, section, footer) diberi background semi-transparan (opacity 0.9) sehingga kontras tetap baik tanpa mengubah palet warna atau spacing.
+
+**Bagian yang berubah**:
+- **CSS (styles.css)**:
+  - `body`: Background diubah dari solid white ke `linear-gradient(to bottom, var(--teal), var(--purple), var(--white))` dengan `background-attachment: fixed`.
+  - `header`: Background diubah dari solid white ke `rgba(255, 255, 255, 0.9)`.
+  - `section`: Background umum diubah ke `rgba(255, 255, 255, 0.9)`, dan `section:nth-child(even)` ke `rgba(245, 245, 245, 0.9)`.
+  - `#hero`: Background gradasi diubah ke semi-transparan: `linear-gradient(135deg, rgba(128, 203, 196, 0.8), rgba(255, 255, 255, 0.9))`.
+  - `#contact`: Background gradasi diubah ke semi-transparan: `linear-gradient(135deg, rgba(106, 13, 173, 0.9), rgba(74, 20, 140, 0.9))`.
+  - `footer`: Background diubah dari solid dark-gray ke `rgba(51, 51, 51, 0.9)`.
+- **Tidak ada perubahan pada HTML**: Semua perubahan hanya di CSS untuk menjaga struktur semantik.
+
+Untuk melihat hasilnya, buka index.html di browser—gradasi akan terlihat di seluruh halaman, dan elemen tetap mudah dibaca. Jika kontras masih kurang di bagian tertentu, beri tahu untuk penyesuaian!
+
+Made changes.
+
+### Review
+- [✅] Sesuai constraints?
+- [✅] Format sesuai?
+- [✅] Bisa dipahami?
+- Changes: Warna background Website menjadi lebih menarik karena warnanya yang gradasi.
+
+---
+
+## Step 6: [Nama]
+
+### Prompt
+[paste prompt lengkap]
+
+### RTCC-O Check
+- R: ✅/❌
+- T: ✅/❌
+- C: ✅/❌
+- C: ✅/❌
+- O: ✅/❌
+
+### AI Response
+[paste output atau screenshot]
+
+### Review
+- [✅/❌] Sesuai constraints?
+- [✅/❌] Format sesuai?
+- [✅/❌] Bisa dipahami?
+- Changes: [jika ada]
+
+---
