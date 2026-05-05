@@ -34,27 +34,7 @@
                     <a href="#contact" class="btn secondary">Contact Me</a>
                 </div>
             </div>
-            <div class="hero-animation">
-                <!-- SVG Animation: ECG to Data Graph -->
-                <svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
-                    <defs>
-                        <style>
-                            .ecg-line { stroke: #00BFA5; stroke-width: 2; fill: none; }
-                            .data-line { stroke: #6A0DAD; stroke-width: 2; fill: none; }
-                        </style>
-                    </defs>
-                    <!-- ECG Waveform -->
-                    <path id="ecg-path" class="ecg-line" d="M0,100 L50,100 L60,80 L70,120 L80,100 L100,100 L110,90 L120,110 L130,100 L200,100 L210,95 L220,105 L230,100 L400,100" />
-                    <!-- Data Bars (initially hidden) -->
-                    <rect id="bar1" x="50" y="120" width="20" height="0" fill="#6A0DAD" opacity="0" />
-                    <rect id="bar2" x="100" y="110" width="20" height="0" fill="#6A0DAD" opacity="0" />
-                    <rect id="bar3" x="150" y="100" width="20" height="0" fill="#6A0DAD" opacity="0" />
-                    <rect id="bar4" x="200" y="90" width="20" height="0" fill="#6A0DAD" opacity="0" />
-                    <rect id="bar5" x="250" y="80" width="20" height="0" fill="#6A0DAD" opacity="0" />
-                    <rect id="bar6" x="300" y="70" width="20" height="0" fill="#6A0DAD" opacity="0" />
-                    <rect id="bar7" x="350" y="60" width="20" height="0" fill="#6A0DAD" opacity="0" />
-                </svg>
-            </div>
+            <!-- REMOVED: Hero animation section (SVG with ECG-to-Data animation) -->
         </section>
 
         <section id="about">
@@ -152,19 +132,7 @@
     </footer>
 
     <script>
-        // Looping animation for hero waveform and data bars
-        window.addEventListener('load', () => {
-            setTimeout(() => {
-                const path = document.getElementById('ecg-path');
-                path.style.animation = 'transformToData 4s ease-in-out 0s infinite';
-
-                const bars = document.querySelectorAll('#bar1, #bar2, #bar3, #bar4, #bar5, #bar6, #bar7');
-                bars.forEach((bar, index) => {
-                    bar.style.animation = `growBar 3s ease-in-out ${index * 0.25}s infinite`;
-                    bar.style.transformOrigin = 'bottom';
-                });
-            }, 500);
-        });
+        // REMOVED: Hero animation script for ECG-to-Data animation
 
         // Smooth scroll for navigation links with offset for fixed header
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
