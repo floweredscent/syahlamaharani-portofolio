@@ -1,10 +1,10 @@
 # Final Results — Syahla's Portfolio Website
 
 ## Portfolio Info
-- **Nama:** [Nama Lengkap]
-- **Repository:** [GitHub URL]
-- **Live URL:** [GitHub Pages URL]
-- **Date:** [Tanggal]
+- **Nama:** Syahla Maharani Salsabila
+- **Repository:** https://github.com/floweredscent/syahlamaharani-portofolio
+- **Live URL:** https://floweredscent.github.io/syahlamaharani-portofolio/
+- **Date:** 5 Mei 2026
 
 ---
 
