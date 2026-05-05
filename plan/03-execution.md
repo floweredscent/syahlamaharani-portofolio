@@ -203,6 +203,30 @@ Made changes.
 
 ---
 
-## Step 4: [Nama]
+## Step 4: Membuat Scroll Navigasi Lebih Mulus
 
-[Same format...]
+### Prompt
+Buat agar saat website discroll menjadi mulus, terutama untuk ketika user menekan tombol navigasi (auto-scroll)
+
+### RTCC-O Check
+- R: ❌
+- T: ✅
+- C: ✅
+- C: ❌
+- O: ✅
+
+### AI Response
+Replacing 15 lines with 28 lines in [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/index.html)
+
+```
+
+Saya telah menambahkan JavaScript untuk membuat scroll navigasi lebih mulus dengan offset yang tepat untuk header fixed. Sekarang saat menekan tombol navigasi, scroll akan berjalan halus ke bagian yang tepat tanpa melompat, dan bagian atas section tidak akan tertutup oleh header.
+
+Untuk melihat hasilnya, buka index.html di browser dan klik link navigasi seperti "About" atau "Contact". Jika masih ada masalah, beri tahu saya!
+
+Made changes.
+
+### Review
+- [✅] Format sesuai?
+- [✅] Bisa dipahami?
+- Changes: Scroll navigasi yang sebelumnya kaku (seperti loncat-loncat) kini menjadi lebih mulus.
