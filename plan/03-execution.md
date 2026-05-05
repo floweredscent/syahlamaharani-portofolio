@@ -13,12 +13,12 @@ Buatkan sebuah landing page untuk website portfolio berdasarkan hasil brainstorm
 - O: ✅
 
 ### AI Response
-![img](..\assets\execution-prompt1-1.png)
-![img](..\assets\execution-prompt1-2.png)
-![img](..\assets\execution-prompt1-3.png)
-![img](..\assets\execution-prompt1-4.png)
-![img](..\assets\execution-prompt1-5.png)
-![img](..\assets\execution-prompt1-6.png)
+![prompt1-1](..\assets\execution-prompt1-1.png)
+![prompt1-2](..\assets\execution-prompt1-2.png)
+![prompt1-3](..\assets\execution-prompt1-3.png)
+![prompt1-4](..\assets\execution-prompt1-4.png)
+![prompt1-5](..\assets\execution-prompt1-5.png)
+![prompt1-6](..\assets\execution-prompt1-6.png)
 
 Landing page portfolio telah berhasil dibuat berdasarkan hasil brainstorm dan details yang Anda berikan. Saya telah membuat file index.html dan styles.css dengan fitur-fitur berikut:
 
@@ -59,7 +59,7 @@ Dalam mode mobile, tampilan navigasi website masih terlihat berantakan (navigasi
 - O: ✅
 
 ### AI Response
-![img](..\assets\execution-prompt2-1.png)
+![prompt2-1](..\assets\execution-prompt2-1.png)
 Memperbaiki tata letak navigasi mobile dengan menyesuaikan flex wrapping dan spacing pada CSS. Saya juga menambahkan aturan khusus untuk ukuran layar kecil agar header tidak menutupi konten.
 
 Replacing 26 lines with 33 lines in [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/styles.css)
