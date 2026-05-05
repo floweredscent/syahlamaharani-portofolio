@@ -152,18 +152,18 @@
     </footer>
 
     <script>
-        // Simple animation trigger on load
+        // Looping animation for hero waveform and data bars
         window.addEventListener('load', () => {
             setTimeout(() => {
-                document.getElementById('ecg-path').style.animation = 'transformToData 3s ease-in-out forwards';
+                const path = document.getElementById('ecg-path');
+                path.style.animation = 'transformToData 4s ease-in-out 0s infinite';
+
                 const bars = document.querySelectorAll('#bar1, #bar2, #bar3, #bar4, #bar5, #bar6, #bar7');
                 bars.forEach((bar, index) => {
-                    setTimeout(() => {
-                        bar.style.animation = `growBar 1s ease-out forwards`;
-                        bar.style.opacity = '1';
-                    }, index * 200);
+                    bar.style.animation = `growBar 3s ease-in-out ${index * 0.25}s infinite`;
+                    bar.style.transformOrigin = 'bottom';
                 });
-            }, 1000);
+            }, 500);
         });
     </script>
 </body>

@@ -118,9 +118,88 @@ Hasilnya: navigasi mobile kini rapi, tidak terpotong, dan jarak antar menu lebih
 
 ---
 
-## Step 3: [Nama]
+## Step 3: Menyempurnakan Hero Animation
 
-[Same format...]
+### Prompt
+Hero animation pada website hanya berjalan satu kali. Buat agar animasi tersebut berjalan berulang (waveform-data bars-waveform-data bars dan seterusnya). Sertakan keterangan bagian mana saja yang diubah.
+
+### RTCC-O Check
+- R: ❌
+- T: ✅
+- C: ✅
+- C: ✅
+- O: ✅
+
+### AI Response
+![prompt3-1](..\assets\execution-prompt3-1.png)
+Mengecek bagian animasi SVG dan stylesheet untuk memperbarui loop secara tepat.
+
+Read [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/index.html#1-1), lines 1 to 120
+
+Read [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/styles.css#70-70), lines 70 to 180
+
+Read [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/index.html#120-120), lines 120 to 170
+
+Menyesuaikan animasi agar berganti secara terus-menerus, termasuk path dan bar.
+
+Replacing 11 lines with 14 lines in [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/styles.css)
+
+```
+
+Replacing 17 lines with 17 lines in [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/index.html)
+
+```
+
+Read [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/styles.css#90-90), lines 90 to 140
+
+Read [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/styles.css#140-140), lines 140 to 190
+
+Read [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/styles.css#190-190), lines 190 to 220
+
+Read [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/index.html#170-170), lines 170 to 170
+
+Read [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/index.html#170-170), lines 170 to 170
+
+Searched for regex `window.addEventListener|transformToData|growBar` (`**/index.html`), 3 results
+
+Read [](file:///d%3A/Kareerr%20Mini%20Bootcamp%20IT/syahlamaharani-portofolio/index.html#146-146), lines 146 to 170
+
+Perubahan untuk animasi looping
+
+File yang diubah
+- styles.css
+- index.html
+
+Detail perubahan
+
+1. styles.css
+   - Diperbarui `@keyframes transformToData` supaya:
+     - mulainya dari waveform
+     - berubah ke garis datar
+     - kembali lagi ke waveform
+   - Diperbarui `@keyframes growBar` supaya:
+     - bar muncul dengan `height` dan `opacity`
+     - kemudian hilang kembali
+     - sehingga siap diulang terus
+
+2. index.html
+   - Script animasi diubah dari sekali jalan (`forwards`) menjadi:
+     - `transformToData 4s ease-in-out 0s infinite`
+     - `growBar 3s ease-in-out ${delay}s infinite`
+   - Setiap bar sekarang menggunakan delay bertahap agar animasi bergantian secara lebih natural.
+
+Hasil
+
+Animasi hero sekarang berulang terus: waveform → data bars → waveform → data bars → dan seterusnya.
+
+Made changes.
+
+### Review
+- [✅] Sesuai constraints?
+- [✅] Format sesuai?
+- [✅] Bisa dipahami?
+- Changes: Hero animation yang sebelumnya berjalan hanya satu kali kini berulang terus.
+
 
 ---
 
