@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syahla Maharani - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Syahla Maharani Salsabila</div>
+            <ul class="nav-links">
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <h1>From Biomedical Signals to Data Insights</h1>
+                <p>Biomedical Engineering Graduate | Aspiring IT Professional</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-animation">
+                <!-- SVG Animation: ECG to Data Graph -->
+                <svg width="400" height="200" viewBox="0 0 400 200" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <style>
+                            .ecg-line { stroke: #00BFA5; stroke-width: 2; fill: none; }
+                            .data-line { stroke: #6A0DAD; stroke-width: 2; fill: none; }
+                        </style>
+                    </defs>
+                    <!-- ECG Waveform -->
+                    <path id="ecg-path" class="ecg-line" d="M0,100 L50,100 L60,80 L70,120 L80,100 L100,100 L110,90 L120,110 L130,100 L200,100 L210,95 L220,105 L230,100 L400,100" />
+                    <!-- Data Bars (initially hidden) -->
+                    <rect id="bar1" x="50" y="120" width="20" height="0" fill="#6A0DAD" opacity="0" />
+                    <rect id="bar2" x="100" y="110" width="20" height="0" fill="#6A0DAD" opacity="0" />
+                    <rect id="bar3" x="150" y="100" width="20" height="0" fill="#6A0DAD" opacity="0" />
+                    <rect id="bar4" x="200" y="90" width="20" height="0" fill="#6A0DAD" opacity="0" />
+                    <rect id="bar5" x="250" y="80" width="20" height="0" fill="#6A0DAD" opacity="0" />
+                    <rect id="bar6" x="300" y="70" width="20" height="0" fill="#6A0DAD" opacity="0" />
+                    <rect id="bar7" x="350" y="60" width="20" height="0" fill="#6A0DAD" opacity="0" />
+                </svg>
+            </div>
+        </section>
+
+        <section id="about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>As a recent Biomedical Engineering graduate, I bridge the gap between biological signals and data-driven insights. My expertise in signal processing and AI allows me to transform complex biomedical data into actionable information, making me uniquely positioned for IT roles in data science and software development.</p>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="container">
+                <h2>Skills</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <h3>Signal Processing & Data</h3>
+                        <ul>
+                            <li>MATLAB</li>
+                            <li>Python</li>
+                            <li>Data Analysis</li>
+                            <li>Data Visualization</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>AI & Tools</h3>
+                        <ul>
+                            <li>Artificial Intelligence</li>
+                            <li>Prompt Engineering</li>
+                            <li>Power BI</li>
+                            <li>C Programming</li>
+                        </ul>
+                    </div>
+                    <div class="skill-category">
+                        <h3>Productivity</h3>
+                        <ul>
+                            <li>Microsoft Excel</li>
+                            <li>Microsoft Word</li>
+                            <li>Google Workspaces</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <div class="container">
+                <h2>Projects</h2>
+                <div class="projects-grid">
+                    <article class="project-card">
+                        <h3>Biomedical Signal Processing</h3>
+                        <p>Developed algorithms to analyze ECG signals using MATLAB, extracting key features for diagnostic purposes.</p>
+                        <a href="#" class="btn small">View Details</a>
+                    </article>
+                    <article class="project-card">
+                        <h3>AI-Powered Data Visualization</h3>
+                        <p>Created interactive dashboards with Python and Power BI to visualize complex datasets from biomedical research.</p>
+                        <a href="#" class="btn small">View Details</a>
+                    </article>
+                    <article class="project-card">
+                        <h3>Machine Learning for Image Analysis</h3>
+                        <p>Implemented ML models in Python for analyzing medical images, improving accuracy in pattern recognition.</p>
+                        <a href="#" class="btn small">View Details</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section id="experience">
+            <div class="container">
+                <h2>Experience</h2>
+                <div class="experience-item">
+                    <h3>Biomedical Engineering Intern</h3>
+                    <p>Assisted in signal processing research, utilizing MATLAB for data analysis and visualization.</p>
+                </div>
+                <div class="experience-item">
+                    <h3>Freelance Data Analyst</h3>
+                    <p>Provided data insights using Excel and Python for small businesses, focusing on trend analysis.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <p>Ready to bring my unique perspective to your IT team? Let's connect!</p>
+                <a href="mailto:maharanisyahla@gmail.com" class="btn primary">Email Me</a>
+                <a href="https://linkedin.com/in/syahla-maharani" class="btn secondary">LinkedIn</a>
+            </div>
+        </section
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Syahla Maharani Salsabila. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Simple animation trigger on load
+        window.addEventListener('load', () => {
+            setTimeout(() => {
+                document.getElementById('ecg-path').style.animation = 'transformToData 3s ease-in-out forwards';
+                const bars = document.querySelectorAll('#bar1, #bar2, #bar3, #bar4, #bar5, #bar6, #bar7');
+                bars.forEach((bar, index) => {
+                    setTimeout(() => {
+                        bar.style.animation = `growBar 1s ease-out forwards`;
+                        bar.style.opacity = '1';
+                    }, index * 200);
+                });
+            }, 1000);
+        });
+    </script>
+</body>
+</html>
