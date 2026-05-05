@@ -19,7 +19,7 @@ Tech stack, constraints, standards:
 - Approach: Mobile-first
 - Audience: Recruiter HR
 - Design goal: Clean, modern, minimal, tidak terlalu ramai tapi tetap standout
-- Content focus: About (ringkas & jelas value), Skills (technical highlight), Projects and Experiences (proof of work, Contact (mudah diakses)
+- Content focus: About (ringkas & jelas value), Skills (technical highlight), Projects and Experiences (proof of work), Contact (mudah diakses)
 
 ---
 
